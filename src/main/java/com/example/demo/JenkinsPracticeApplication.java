@@ -8,7 +8,7 @@ public class JenkinsPracticeApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JenkinsPracticeApplication.class, args);
-		System.out.println("hi welocome your application is deployed ");
+		System.out.println("hi welocome your application is deployed");
 	}
 
 }
