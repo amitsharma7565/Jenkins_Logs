@@ -7,6 +7,7 @@ public class JenkinsPracticeApplication {
 	
 		System.out.println("hi welocome your application is deployed ");
 		System.out.println("hi again deploy in the server");
+		System.out.println("third day to check is it working properly");
 	}
 
 }
