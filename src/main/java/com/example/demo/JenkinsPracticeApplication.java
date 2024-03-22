@@ -1,13 +1,15 @@
 package com.example.demo;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@SpringBootApplication
 public class JenkinsPracticeApplication {
 
 	public static void main(String[] args) {
-	
-		System.out.println("hi welocome your application is deployed ");
-		System.out.println("hi again deploy in the server");
-		System.out.println("third day to check is it working properly");
+		SpringApplication.run(JenkinsPracticeApplication.class, args);
+		System.out.println("hi welcome your application is deployed ");
+
 	}
 
 }
