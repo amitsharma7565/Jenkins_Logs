@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class CheckController {
 
 	@GetMapping("/test")
-	public void check() {
-		System.out.println("this is CheckController endpoint");
+	public String check() {
+		return "this is CheckController endpoint";
 	}
 	
 }
