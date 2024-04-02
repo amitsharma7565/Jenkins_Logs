@@ -9,7 +9,5 @@ public class JenkinsPracticeApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(JenkinsPracticeApplication.class, args);
 		System.out.println("hi welcome your application is deployed ");
-
 	}
-
 }

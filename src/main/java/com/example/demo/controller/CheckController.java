@@ -11,7 +11,7 @@ public class CheckController {
 
 	@GetMapping("/test")
 	public String check() {
-		return "this is CheckController endpoint";
+		return "hi this is first deployment";
 	}
 	
 }
